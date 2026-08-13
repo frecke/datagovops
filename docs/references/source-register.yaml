@@ -204,3 +204,63 @@ entries:
       - artifact and evaluation framing
     limitations:
       - The guidelines do not replace a study-specific evaluation design.
+
+  - id: venable-et-al-2016
+    title: "FEDS: a Framework for Evaluation in Design Science Research"
+    issuer: European Journal of Information Systems
+    publication_date: "2016"
+    source_class: research
+    normative_status: peer-reviewed-research
+    verification_status: verified
+    url: https://doi.org/10.1057/ejis.2014.36
+    relevance:
+      - Design Science Research evaluation strategy
+      - formative and summative evaluation
+      - artificial and naturalistic evaluation
+    limitations:
+      - The framework guides evaluation design but does not select the properties or evidence thresholds for this study.
+
+  - id: nadal-et-al-2022
+    title: Operationalizing and automating Data Governance
+    issuer: Journal of Big Data
+    publication_date: "2022"
+    source_class: research
+    normative_status: peer-reviewed-research
+    verification_status: verified
+    url: https://doi.org/10.1186/s40537-022-00673-5
+    relevance:
+      - metadata-driven governance processes
+      - operationalization and automation
+      - executable data-management workflows
+    limitations:
+      - The data-lake and WHO use-case context does not establish Swedish public-sector or archival coverage.
+
+  - id: bountouri-et-al-2009
+    title: Metadata interoperability in public sector information
+    issuer: Journal of Information Science
+    publication_date: "2009"
+    source_class: research
+    normative_status: peer-reviewed-research
+    verification_status: verified
+    url: https://doi.org/10.1177/0165551508098601
+    relevance:
+      - public-sector metadata interoperability
+      - application profiles
+      - semantic integration
+    limitations:
+      - Predates current ODCS, ODPS and DCAT-AP-SE versions and does not establish Swedish requirements.
+
+  - id: chorley-2017
+    title: "The challenges presented to records management by open government data in the public sector in England: a case study"
+    issuer: Records Management Journal
+    publication_date: "2017"
+    source_class: research
+    normative_status: peer-reviewed-research
+    verification_status: verified
+    url: https://doi.org/10.1108/RMJ-09-2016-0034
+    relevance:
+      - records-management implications of open government data
+      - accuracy and integrity
+      - public-sector operational context
+    limitations:
+      - Small England-specific case study; findings cannot establish Swedish legal or institutional requirements.
