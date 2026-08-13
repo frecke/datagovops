@@ -1,0 +1,6 @@
+interface:
+  display_name: "Validate DataGovOps"
+  short_description: "Run and diagnose repository validation"
+  default_prompt: "Run the repository validation, fix in-scope failures, and report remaining coverage gaps."
+policy:
+  allow_implicit_invocation: true
