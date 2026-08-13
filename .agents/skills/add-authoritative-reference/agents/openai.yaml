@@ -1,0 +1,6 @@
+interface:
+  display_name: "Add authoritative reference"
+  short_description: "Verify and register a DataGovOps source"
+  default_prompt: "Verify this source, add it to the source register, and state its relevance and limitations."
+policy:
+  allow_implicit_invocation: true
