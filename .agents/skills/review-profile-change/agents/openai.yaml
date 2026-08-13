@@ -1,0 +1,6 @@
+interface:
+  display_name: "Review profile change"
+  short_description: "Review semantics, evidence and compatibility"
+  default_prompt: "Review this profile change for traceability, semantic correctness, compatibility and archival scope."
+policy:
+  allow_implicit_invocation: true
