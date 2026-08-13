@@ -1,0 +1,29 @@
+apiVersion: datagovops.org/v0alpha1
+kind: DataProduct
+metadata:
+  name: fictional-public-statistics
+  version: 0.1.0
+  status: proposed
+spec:
+  accountability:
+    informationOwner: Fictional information owner
+    dataProductOwner: Fictional data product owner
+    systemOfRecord: fictional-source-system
+  semantics:
+    language: sv-SE
+    concepts:
+      - identifier: https://example.org/concepts/observation
+        preferredLabel: Observation
+        definition: A fictional example concept used for validation.
+  lifecycle:
+    archivalStatus: not-assessed
+    retentionDecisionStatus: not-assessed
+    disposition: review
+    exportability: true
+  provenance:
+    sourceSystems:
+      - fictional-source-system
+    lineageDocumented: false
+    changeHistoryAvailable: true
+  quality:
+    rulesetReference: https://example.org/quality/fictional-rules
