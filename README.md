@@ -37,9 +37,13 @@ Expected reference points include ODCS, ODPS, DCAT-AP-SE, DIGG and eSam guidance
 
 The repository may support Design Science Research into a Swedish public-sector DataGovOps artifact. Research claims, evaluations and legal interpretations must remain traceable and clearly separated from proposals and assumptions.
 
+## AI-assisted contribution
+
+Repository instructions, reusable skills and read-only specialist agents live in `AGENTS.md`, `.agents/` and `.codex/`. See `docs/ai/README.md`.
+
 ## Licensing
 
-Code and schemas are licensed under Apache License 2.0. Documentation is licensed under CC BY 4.0 unless a file states otherwise. See `LICENSE` and `LICENSES/CC-BY-4.0.txt`.
+Code and schemas are licensed under Apache License 2.0. Documentation is licensed under CC BY 4.0 unless a file states otherwise. See `LICENSING.md`, `LICENSE` and `LICENSES/CC-BY-4.0.txt`.
 
 ## Contributing
 
