@@ -55,6 +55,10 @@ def main() -> int:
             ROOT / "examples/minimal-data-product.yaml",
         ),
         (
+            ROOT / "schemas/information-product-profile.schema.yaml",
+            ROOT / "examples/minimal-information-product.yaml",
+        ),
+        (
             ROOT / "schemas/datagovsecops-profile.schema.yaml",
             ROOT / "examples/minimal-security-profile.yaml",
         ),
@@ -81,3 +85,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

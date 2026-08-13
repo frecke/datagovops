@@ -9,11 +9,18 @@ This repository explores how open data-contract and data-product standards can b
 ## Scope
 
 - Machine-readable governance metadata
+- Information products and their technical data-product realizations
 - Data contracts and data-product specifications
 - Swedish public-sector interoperability and open-data concerns
 - Archival status, retention and disposition metadata
 - Provenance, authenticity, integrity and audit evidence
 - Static validation suitable for CI/CD governance gates
+
+## Current design hypothesis
+
+The repository now investigates whether public-sector governance meaning should attach to a technology-independent **information product**, which can be realized by one or more technical data products and contracts. See the [information product and realization model](docs/concepts/information-product-model.md).
+
+The model deliberately separates semantic, contract and snapshot versions and represents usage decisions with purpose, authority, validity and evidence. These are proposals to evaluate, not settled claims.
 
 ## Public boundary
 
@@ -48,3 +55,4 @@ Code and schemas are licensed under Apache License 2.0. Documentation is license
 ## Contributing
 
 See `CONTRIBUTING.md`, `GOVERNANCE.md` and `SECURITY.md`.
+

@@ -1,0 +1,35 @@
+apiVersion: datagovops.org/v0alpha1
+kind: InformationProduct
+metadata:
+  identifier: https://example.org/information-products/fictional-observations
+  name: fictional-observations
+  semanticVersion: 0.1.0
+  status: proposed
+spec:
+  accountability:
+    informationOwner: Fictional information owner
+    steward: Fictional information steward
+  purpose:
+    description: Provide governed observation information for fictional uses.
+    intendedConsumers:
+      - Fictional analysts
+      - Fictional open-data consumers
+  semantics:
+    language: sv-SE
+    concepts:
+      - identifier: https://example.org/concepts/observation
+        preferredLabel: Observation
+        definition: A fictional example concept used for validation.
+  realizations:
+    - dataProduct: https://example.org/data-products/fictional-public-statistics
+      contractReferences:
+        - https://example.org/contracts/fictional-public-statistics/1.0.0
+  usageDecisions:
+    - purpose: ai-training
+      decision: not-assessed
+      authority:
+        decisionReference: FICTIONAL-DECISION-2026-01
+        decidedBy: Fictional information owner
+      validFrom: "2026-08-13"
+      reviewAfter: "2027-08-13"
+      rationale: Fictional placeholder; no legal or organizational claim is made.
